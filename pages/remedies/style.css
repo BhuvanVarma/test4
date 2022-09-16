@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    width: 100vw;
+    height: 70px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.logo-text{
+    padding-left: 2px;
+}
+
+.logo-span{
+    color: #EF4438;
+}
+
+.home-heading{
+    text-align: center;
+}
+
+.main{
+    padding-top: 120px;
+}
